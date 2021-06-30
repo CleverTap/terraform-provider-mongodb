@@ -1,6 +1,5 @@
 
 - This terraform providre allows to perform Create ,Read ,Update ,Delete and Import MongoDB user
-- To import a user use EmailID
 
 ## Requirements
 
@@ -14,7 +13,7 @@
 This provider can be successfully tested on a basic mongoDB cloud manager account.
 
 ## Setup 
-1.Create a mongoDB account(https://account.mongodb.com/account/)
+1. Create a MongoDB account [here](https://account.mongodb.com/account/)
 
 ## API Authentication
 1. Login  to mongodb account
@@ -68,7 +67,7 @@ move terraform-provider-mongodb.exe %APPDATA%\terraform.d\plugins\mongdb.com\edu
 
 ## Working with terraform
 ### Application Credential Integration in terraform
-1. Add terraform block and provider block as shown in example usage.  
+1. Add terraform block and provider block as shown in [example usage](#example-usage).  
 2. Get credentials :Public Key, Private Key and Organization ID  
 3. Assign the above credentials to the respective field in the provider block.` <br>
 
@@ -82,7 +81,7 @@ move terraform-provider-mongodb.exe %APPDATA%\terraform.d\plugins\mongdb.com\edu
 
 ### Invite User
 
-1.  Add the user email and [Organization roles](https://docs.atlas.mongodb.com/reference/api/user-update/) in the respective field as shown in  example usage
+1.  Add the user email and [Organization roles](https://docs.atlas.mongodb.com/reference/api/user-update/) in the respective field as shown in [example usage](#example-usage)
 2. Run the basic terraform commands.
 3.  You will see that a user has been successfully created and an invitation mail has been sent to the user.
 
