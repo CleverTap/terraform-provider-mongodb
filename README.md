@@ -1,4 +1,4 @@
-> Delete, Activate, Deactivate API's are not supported.
+> Activate, Deactivate API's are not supported.
 
 - This terraform provider allows to perform Create ,Read ,Update ,Delete and Import MongoDB user
 
